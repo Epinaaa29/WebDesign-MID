@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pendaftaran</title>
+</head>
+<body style="font-family: Arial, sans-serif;">
+
+  <hr>
+  <nav style="text-align:left; margin-left:20px;">
+    <a href="beranda.html">Beranda</a> |
+    <a href="about.html">Tentang Kami</a> |
+    <a href="pendaftaran.html">Pendaftaran</a> |
+    <a href="biaya_kuliah.html">Biaya Kuliah</a> |
+    <a href="beasiswa.html">Beasiswa</a> |
+    <a href="kontak.html">Kontak</a> |
+  </nav>
+  <hr>
+
+  <div style="margin: 10px 20px;">
+    <h1><strong>UNKLAB Registration Form for New Student</strong></h1>
+
+    <form action="#" method="post" style="width:950px;">
+      
+      <label for="regno"><strong>Registration Number</strong></label><br>
+      <input type="text" id="regno" name="regno" style="width:100%; padding:6px; margin-bottom:10px; box-sizing: border-box;">
+
+      <h3>Personal Information</h3>
+      <table style="width:100%; border-collapse: collapse;">
+        <tr>
+          <td style="width:15%; padding:4px 8px 4px 0;">Full Name</td>
+          <td style="width:35%; padding:4px 8px 4px 0;"><input type="text" name="fullname" style="width:100%; padding:6px; box-sizing: border-box;"></td>
+          <td style="width:15%; padding:4px 8px 4px 0;">Date of Birth</td>
+          <td style="width:35%; padding:4px 8px 4px 0;"><input type="text" name="dob" placeholder="dd/mm/yyyy" style="width:100%; padding:6px; box-sizing: border-box;"></td>
+        </tr>
+        <tr>
+          <td style="padding:4px 8px 4px 0;">Birthplace</td>
+          <td style="padding:4px 8px 4px 0;"><input type="text" name="birthplace" style="width:100%; padding:6px; box-sizing: border-box;"></td>
+          <td style="padding:4px 8px 4px 0;">Blood Type</td>
+          <td style="padding:4px 8px 4px 0;">
+            <label><input type="radio" name="blood" value="A"> A</label>
+            <label style="margin-left:10px;"><input type="radio" name="blood" value="B"> B</label>
+            <label style="margin-left:10px;"><input type="radio" name="blood" value="AB"> AB</label>
+            <label style="margin-left:10px;"><input type="radio" name="blood" value="O"> O</label>
+          </td>
+        </tr>
+        <tr>
+          <td style="padding:4px 8px 4px 0;">Gender</td>
+          <td style="padding:4px 8px 4px 0;">
+            <label><input type="radio" name="gender" value="Male"> Male</label>
+            <label style="margin-left:15px;"><input type="radio" name="gender" value="Female"> Female</label>
+          </td>
+          <td style="padding:4px 8px 4px 0;">Tribe</td>
+          <td style="padding:4px 8px 4px 0;"><input type="text" name="tribe" style="width:100%; padding:6px; box-sizing: border-box;"></td>
+        </tr>
+        <tr>
+            <td style="padding:4px 8px 4px 0;">Telephone Number</td>
+            <td style="padding:4px 8px 4px 0;"><input type="text" name="telephone" style="width:100%; padding:6px; box-sizing: border-box;"></td>
+            <td style="padding:4px 8px 4px 0;">Email</td>
+            <td style="padding:4px 8px 4px 0;"><input type="email" name="email" style="width:100%; padding:6px; box-sizing: border-box;"></td>
+        </tr>
+        <tr>
+            <td style="padding:4px 8px 4px 0;">Status</td>
+            <td style="padding:4px 8px 4px 0;">
+                <select name="status" style="width:100%; padding:6px;">
+                    <option value="Single" selected>Single</option>
+                    <option value="Married">Married</option>
+                </select>
+            </td>
+            <td style="padding:4px 8px 4px 0;">Mobile Number</td>
+            <td style="padding:4px 8px 4px 0;"><input type="text" name="mobile" style="width:100%; padding:6px; box-sizing: border-box;"></td>
+        </tr>
+        <tr>
+            <td style="padding:4px 8px 4px 0;"></td>
+            <td style="padding:4px 8px 4px 0;"></td>
+            <td style="padding:4px 8px 4px 0;">Religion</td>
+            <td style="padding:4px 8px 4px 0;">
+                <select name="religion" style="width:100%; padding:6px;">
+                    <option value="Seventh Day Adventist" selected>Seventh Day Adventist</option>
+                    <option value="Christian">Christian</option>
+                    <option value="Muslim">Muslim</option>
+                </select>
+            </td>
+        </tr>
+      </table>
+
+      <h3 style="margin-top:20px;">Home Address</h3>
+      <textarea name="home_address" rows="3" style="width:100%; padding:6px; box-sizing: border-box;"></textarea>
+      <label style="display: block; margin-top: 8px;">Postal Code</label>
+      <input type="text" name="postal" style="width:100%; padding:6px; margin-bottom:8px; box-sizing: border-box;">
+
+      <h3 style="margin-top:20px;">School Information</h3>
+      <label>High School Name</label><br>
+      <input type="text" name="hs_name" style="width:100%; padding:6px; margin-bottom:8px; box-sizing: border-box;">
+      <table style="width: 100%; border-collapse: collapse;">
+          <tr>
+              <td style="width: 50%; padding-right: 8px; vertical-align: top;">
+                  <label>Program</label><br>
+                  <input type="text" name="hs_program" style="width:100%; padding:6px; box-sizing: border-box;">
+              </td>
+              <td style="width: 50%; padding-left: 8px; vertical-align: top;">
+                  <label>Telephone Number</label><br>
+                  <input type="text" name="hs_phone" style="width:100%; padding:6px; box-sizing: border-box;">
+              </td>
+          </tr>
+      </table>
+      <label style="display: block; margin-top: 8px;">School's Address</label>
+      <textarea name="hs_address" rows="3" style="width:100%; padding:6px; margin-bottom:8px; box-sizing: border-box;"></textarea>
+      <label>Postal Code</label><br>
+      <input type="text" name="hs_postal" style="width:100%; padding:6px; margin-bottom:8px; box-sizing: border-box;">
+
+      <h3 style="margin-top:20px;">Parent's Information</h3>
+      <label>Father's Name</label><br>
+      <input type="text" name="father_name" style="width:100%; padding:6px; margin-bottom:8px; box-sizing: border-box;">
+      <table style="width:100%; border-collapse: collapse;">
+          <tr>
+              <td style="width:50%; padding-right:8px;">
+                  <label>Mobile Number</label><br>
+                  <input type="text" name="father_mobile" style="width:100%; padding:6px; box-sizing: border-box;">
+              </td>
+              <td style="width:50%; padding-left:8px;">
+                  <label>Email</label><br>
+                  <input type="email" name="father_email" style="width:100%; padding:6px; box-sizing: border-box;">
+              </td>
+          </tr>
+          <tr>
+              <td style="padding-right:8px; padding-top: 8px;">
+                  <label>Education</label><br>
+                  <select name="father_edu" style="width:100%; padding:6px;">
+                      <option value="Elementary" selected>Elementary</option>
+                      <option value="High School">High School</option>
+                  </select>
+              </td>
+              <td style="padding-left:8px; padding-top: 8px;">
+                  <label>Religion</label><br>
+                  <select name="father_religion" style="width:100%; padding:6px;">
+                      <option value="SDA" selected>SDA</option>
+                      <option value="Christian">Christian</option>
+                  </select>
+              </td>
+          </tr>
+      </table>
+      <label style="display: block; margin-top: 15px;">Mother's Name</label><br>
+      <input type="text" name="mother_name" style="width:100%; padding:6px; margin-bottom:8px; box-sizing: border-box;">
+      <table style="width:100%; border-collapse: collapse;">
+          <tr>
+              <td style="width:50%; padding-right:8px;">
+                  <label>Mobile Number</label><br>
+                  <input type="text" name="mother_mobile" style="width:100%; padding:6px; box-sizing: border-box;">
+              </td>
+              <td style="width:50%; padding-left:8px;">
+                  <label>Email</label><br>
+                  <input type="email" name="mother_email" style="width:100%; padding:6px; box-sizing: border-box;">
+              </td>
+          </tr>
+          <tr>
+              <td style="padding-right:8px; padding-top: 8px;">
+                  <label>Education</label><br>
+                  <select name="mother_edu" style="width:100%; padding:6px;">
+                      <option value="Elementary" selected>Elementary</option>
+                      <option value="High School">High School</option>
+                  </select>
+              </td>
+              <td style="padding-left:8px; padding-top: 8px;">
+                  <label>Religion</label><br>
+                  <select name="mother_religion" style="width:100%; padding:6px;">
+                      <option value="SDA" selected>SDA</option>
+                      <option value="Christian">Christian</option>
+                  </select>
+              </td>
+          </tr>
+      </table>
+
+      <h3 style="margin-top:20px;">Parent Care's Information</h3>
+      <table style="width: 100%; border-collapse: collapse;">
+        <tr>
+          <td style="width:50%; padding-right:8px; vertical-align:top;">
+            <label>Full Name</label><br>
+            <input type="text" name="guardian_name" style="width:100%; padding:6px; margin-bottom:8px; box-sizing: border-box;">
+            <label>Home Phone Number</label><br>
+            <input type="text" name="guardian_homephone" style="width:100%; padding:6px; margin-bottom:8px; box-sizing: border-box;">
+            <label>Education</label><br>
+            <select name="guardian_edu" style="width:100%; padding:6px; margin-bottom:8px;">
+              <option value="Elementary" selected>Elementary</option>
+              <option value="High School">High School</option>
+            </select>
+          </td>
+          <td style="width:50%; padding-left:8px; vertical-align:top;">
+            <label>Family Relation</label><br>
+            <input type="text" name="guardian_relation" style="width:100%; padding:6px; margin-bottom:8px; box-sizing: border-box;">
+            <label>Mobile Number</label><br>
+            <input type="text" name="guardian_mobile" style="width:100%; padding:6px; margin-bottom:8px; box-sizing: border-box;">
+            <label>Religion</label><br>
+            <select name="guardian_religion" style="width:100%; padding:6px; margin-bottom:8px;">
+              <option value="SDA" selected>SDA</option>
+              <option value="Christian">Christian</option>
+            </select>
+          </td>
+        </tr>
+      </table>
+      
+      <p style="margin-top:20px;">
+        <label>
+          <input type="checkbox" name="agree" required style="vertical-align: middle;"> 
+          I hereby state that all information on this New Student Registration Form are complete and true. All contents in this form is submitted to Universitas Klabat and Universitas Klabat are not oblige to return it.
+        </label>
+      </p>
+
+      <div style="margin-top:20px;">
+        Airmadidi, <input type="text" placeholder="dd / mm / yyyy" style="padding: 6px; width: 150px;">
+      </div>
+
+      <div style="margin-top:20px; text-align:left;">
+        <button type="reset" style="padding:8px 15px;">Reset Form</button>
+        <button type="submit" style="padding:8px 15px; margin-left:8px;">Register</button>
+      </div>
+    </form>
+  </div>
+  
+  <hr>
+  <footer style="text-align:left; margin-left:20px;">
+    Copyright WebDesign Course UNKLAB <span>&#169;</span> 2022
+  </footer>
+
+</body>
+</html>
